@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Nutrologia</title>
+    <link rel="stylesheet" href="formul.css">
+</head>
+<body>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Formulário de Nutrologia</h2>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                
+                <input type="email" name="email" placeholder="digite se email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="gender">Gênero:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Selecione</option>
+                    <option value="female">Feminino</option>
+                    <option value="male">Masculino</option>
+                    <option value="other">Outro</option>
+                </select>
+
+                <label for="medical-history">Histórico Médico:</label>
+                <textarea id="medical-history" name="medical-history" rows="4" required></textarea>
+
+                <label for="current-medications">Medicamentos Atuais:</label>
+                <textarea id="current-medications" name="current-medications" rows="4" required></textarea>
+
+                <label for="diet">Dieta Atual:</label>
+                <textarea id="diet" name="diet" rows="4" required></textarea>
+
+                <label for="goals">Objetivos Nutricionais:</label>
+                <textarea id="goals" name="goals" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
